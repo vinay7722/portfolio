@@ -1,0 +1,635 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My {{Portfolio}}"
+      },
+      "es": {
+        "title_short": "Portafolio",
+        "title_short_nav": "Portafolio",
+        "title_long_prefix": "Explora",
+        "title_long": "Mi {{Portafolio}}"
+      },
+      "fr": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Découvrez",
+        "title_long": "Mon {{Portfolio}}"
+      },
+      "ko": {
+        "title_short": "포트폴리오",
+        "title_short_nav": "포트폴리오",
+        "title_long_prefix": "이것은 내",
+        "title_long": "{{포트폴리오}}입니다"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+        "en": {
+          "category_all": "All"
+        },
+        "es": {
+          "category_all": "Todo",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilidades"
+        },
+        "fr": {
+          "category_all": "Tout",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilitaires"
+        },
+        "ko": {
+          "category_all": "모두",
+          "category_apps": "앱",
+          "category_web": "웹",
+          "category_utilities": "유틸리티"
+        }
+      },
+      "settings": {
+        "categorize_by": [],
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "categoryId": "category_utilities",
+          "img": "images/photo/rajkot-offer.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://rajkotoffers.com/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Rajkot Offers",
+              "text": "Rajkot Offers is a platform that connects local businesses with customers, offering exclusive deals and discounts. Users can discover the best offers in Rajkot, making shopping more affordable and enjoyable.",
+              "list": ["test", "test"],
+              "tags": ["Node.js", "MySQL", "React.js", "Bootstrap"]
+            },
+            "es": {
+              "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
+              "tags": ["API", "REST", "Backend"]
+            },
+            "fr": {
+              "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
+              "tags": ["API", "REST", "Backend"]
+            },
+            "ko": {
+              "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
+              "tags": ["API", "REST", "Backend"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "categoryId": "category_apps",
+          "img": "images/photo/lucky1.webp",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://lucky1.in/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Lucky1 Dating App",
+              "text": "Lucky1 is more than a dating app; it’s a platform for meaningful, lasting relationships. Focused on compatibility and safety, we help you find your perfect match. Join thousands of satisfied users",
+              "tags": ["Node.js", "MySQL", "React.js", "Bootstrap"]
+            },
+            "es": {
+              "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
+              "tags": ["Flutter", "Correo", "Comunicación"]
+            },
+            "fr": {
+              "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
+              "tags": ["Flutter", "E-mail", "Communication"]
+            },
+            "ko": {
+              "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
+              "tags": ["Flutter", "이메일", "소통"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "categoryId": "category_apps",
+          "img": "images/photo/funbun.webp",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://play.google.com/store/apps/details?id=in.funbun.app&hl=en",
+                "tooltipString": "see_on_google_play",
+                "faIcon": "fa-brands fa-google-play"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Funbun: Live Chat & Video call",
+              "text": "Funbun is a social media app where users can chat with friends, follow each other, share photos, videos, status updates, and more — including support for voice and video calls.",
+              "tags": ["Node.js", "React.js", "Bootstrap", "MySQL"]
+            },
+            "es": {
+              "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
+              "tags": ["Flutter", "Correo", "Comunicación"]
+            },
+            "fr": {
+              "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
+              "tags": ["Flutter", "E-mail", "Communication"]
+            },
+            "ko": {
+              "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
+              "tags": ["Flutter", "이메일", "소통"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "categoryId": "category_apps",
+          "img": "images/photo/groot.webp",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://grootapp.com/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Groot Expance Manager",
+              "text": "Groot - Expense Manager lets you easily manage your finances with customizable accounts, cards, and categories. Track transactions, analyze data with graphs, and budget wisely. Take control of your money today!",
+              "tags": ["Node.js", "React.js", "Bootstrap", "MySQL"]
+            },
+            "es": {
+              "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
+              "tags": ["Flutter", "Correo", "Comunicación"]
+            },
+            "fr": {
+              "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
+              "tags": ["Flutter", "E-mail", "Communication"]
+            },
+            "ko": {
+              "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
+              "tags": ["Flutter", "이메일", "소통"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "categoryId": "category_apps",
+          "img": "images/photo/one-click.jpg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://one-click-website-builder.web.app/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "One-Click-Site-Builder",
+              "text": "It’s a platform where you can build a website with just a one-line description and get it instantly hosted online.",
+              "tags": ["React", "Javascript", "Firebase", "Node.js"]
+            },
+            "es": {
+              "title": "Snappy",
+              "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
+              "tags": ["Swift", "Fotografía", "Cámara"]
+            },
+            "fr": {
+              "title": "Snappy",
+              "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
+              "tags": ["Swift", "Photographie", "Caméra"]
+            },
+            "ko": {
+              "title": "Snappy",
+              "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
+              "tags": ["Swift", "사진", "카메라"]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "categoryId": "category_web",
+          "img": "images/photo/dibbs-marketplace.jpg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://app.dibbstechnology.com/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Dibbs-Marketplace",
+              "text": "This platform allows users to post jobs or tasks and connect with available workers. Workers can easily browse and accept jobs that match their skills and interests.",
+              "tags": ["React", "Javascript", "Firebase", "Node.js"]
+            },
+            "es": {
+              "title": "Sweet Scoops",
+              "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
+              "tags": ["WooCommerce", "Comida", "Postres"]
+            },
+            "fr": {
+              "title": "Sweet Scoops",
+              "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
+              "tags": ["WooCommerce", "Cuisine", "Desserts"]
+            },
+            "ko": {
+              "title": "Sweet Scoops",
+              "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
+              "tags": ["WooCommerce", "음식", "디저트"]
+            }
+          }
+        },
+        {
+          "id": 7,
+          "categoryId": "category_web",
+          "img": "images/photo/algocraze.jpg",
+          "faIcon": "fa-solid fa-guitar",
+          "faIconColors": { "bg": "#7671AA", "fill": "#EEEEEE" },
+          "locales": {
+            "en": {
+              "title": "Algocraze",
+              "text": "The software is designed for algorithmic trading and features three user panels: admin, agent, and client. It includes a stock subscription system and applies various algorithms to help clients analyze market trends and validate trading opportunities. Based on these analyses, detailed reports are generated to assist in informed decision-making.",
+              "tags": ["React.js", "Javascript", "CSS"]
+            },
+            "es": {
+              "title": "RockVerse",
+              "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
+              "tags": ["Django", "Música", "Rock"]
+            },
+            "fr": {
+              "title": "RockVerse",
+              "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+              "tags": ["Django", "Musique", "Rock"]
+            },
+            "ko": {
+              "title": "RockVerse",
+              "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+              "tags": ["Django", "음악", "록"]
+            }
+          }
+        },
+        {
+          "id": 8,
+          "categoryId": "category_utilities",
+          "img": "images/photo/dibbs-backend.svg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Dibbs-Backend",
+              "text": "In this project, we have implemented a Cloud Function using Google Cloud Platform (GCP).It is designed to handle backend logic or automate tasks in a scalable, serverless environment.",
+              "tags": ["Cloud Function", "Firebase", "Node.js"]
+            },
+            "es": {
+              "title": "Soccer Analytics",
+              "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
+              "tags": ["IA", "Predicción", "Fútbol"]
+            },
+            "fr": {
+              "title": "Soccer Analytics",
+              "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
+              "tags": ["IA", "Prédiction", "Football"]
+            },
+            "ko": {
+              "title": "Soccer Analytics",
+              "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
+              "tags": ["AI", "예측", "축구"]
+            }
+          }
+        },
+        {
+          "id": 9,
+          "categoryId": "category_apps",
+          "img": "images/photo/realtime-chat-app.jpg",
+          "faIcon": "fa-solid fa-truck-fast",
+          "faIconColors": { "bg": "#007396", "fill": "#EEEEEE" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://mercor-backend-task.web.app/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Real-Time Chat Application",
+              "text": "It’s a real-time chat application built with Google Authentication for secure user login. Users can sign in with their Google accounts and instantly start chatting in real time.",
+              "tags": ["React", "Javascript", "Firebase", "Node.js"]
+            },
+            "es": {
+              "title": "QuickDrop",
+              "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
+              "tags": ["React Native", "Entrega", "Seguimiento"]
+            },
+            "fr": {
+              "title": "QuickDrop",
+              "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
+              "tags": ["React Native", "Livraison", "Suivi"]
+            },
+            "ko": {
+              "title": "QuickDrop",
+              "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
+              "tags": ["React Native", "배송", "실시간 추적"]
+            }
+          }
+        },
+        {
+          "id": 10,
+          "categoryId": "category_apps",
+          "img": "images/photo/whether-forcast.jpg",
+          "faIcon": "fa-solid fa-truck-fast",
+          "faIconColors": { "bg": "#007396", "fill": "#EEEEEE" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://lucientaskwhetherapp.netlify.app/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Whether Forcasting",
+              "text": "In this project we have created whether forcasting app where You can see everyday whether",
+              "tags": ["React", "Javascript", "Tailwand-CSS"]
+            },
+            "es": {
+              "title": "QuickDrop",
+              "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
+              "tags": ["React Native", "Entrega", "Seguimiento"]
+            },
+            "fr": {
+              "title": "QuickDrop",
+              "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
+              "tags": ["React Native", "Livraison", "Suivi"]
+            },
+            "ko": {
+              "title": "QuickDrop",
+              "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
+              "tags": ["React Native", "배송", "실시간 추적"]
+            }
+          }
+        },
+        {
+          "id": 11,
+          "categoryId": "category_apps",
+          "img": "images/photo/selling-dashboard.jpg",
+          "faIcon": "fa-solid fa-truck-fast",
+          "faIconColors": { "bg": "#007396", "fill": "#EEEEEE" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://selling-dashboard.web.app/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Selling Dashboard",
+              "text": "It’s an online bookstore where users can buy and sell books easily, offering a convenient platform for both readers and sellers to connect and exchange a wide variety of titles.",
+              "tags": ["React", "Javascript", "Firebase"]
+            },
+            "es": {
+              "title": "QuickDrop",
+              "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
+              "tags": ["React Native", "Entrega", "Seguimiento"]
+            },
+            "fr": {
+              "title": "QuickDrop",
+              "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
+              "tags": ["React Native", "Livraison", "Suivi"]
+            },
+            "ko": {
+              "title": "QuickDrop",
+              "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
+              "tags": ["React Native", "배송", "실시간 추적"]
+            }
+          }
+        },
+        {
+          "id": 12,
+          "categoryId": "category_apps",
+          "img": "images/photo/leadmato.png",
+          "faIcon": "fa-solid fa-truck-fast",
+          "faIconColors": { "bg": "#007396", "fill": "#EEEEEE" },
+          "locales": {
+            "en": {
+              "title": "Leadmato Chrome Extention",
+              "text": "It’s essentially a WhatsApp extension designed to extract and collect information from WhatsApp chats for analysis or automation purposes.",
+              "tags": ["Javascript", "HTML", "CSS"]
+            },
+            "es": {
+              "title": "QuickDrop",
+              "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
+              "tags": ["React Native", "Entrega", "Seguimiento"]
+            },
+            "fr": {
+              "title": "QuickDrop",
+              "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
+              "tags": ["React Native", "Livraison", "Suivi"]
+            },
+            "ko": {
+              "title": "QuickDrop",
+              "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
+              "tags": ["React Native", "배송", "실시간 추적"]
+            }
+          }
+        },
+        {
+          "id": 13,
+          "categoryId": "category_apps",
+          "img": "images/photo/product-study.png",
+          "faIcon": "fa-solid fa-truck-fast",
+          "faIconColors": { "bg": "#007396", "fill": "#EEEEEE" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://theproductstudy.com/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "The Product Study Landing Page",
+              "text": "It’s the landing page for a product study portal, designed to showcase features, benefits, and provide quick access to learning resources and tools.",
+              "tags": ["HTML", "Javascript", "CSS"]
+            },
+            "es": {
+              "title": "QuickDrop",
+              "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
+              "tags": ["React Native", "Entrega", "Seguimiento"]
+            },
+            "fr": {
+              "title": "QuickDrop",
+              "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
+              "tags": ["React Native", "Livraison", "Suivi"]
+            },
+            "ko": {
+              "title": "QuickDrop",
+              "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
+              "tags": ["React Native", "배송", "실시간 추적"]
+            }
+          }
+        },
+        {
+          "id": 14,
+          "categoryId": "category_apps",
+          "img": "images/photo/waitlist.jpg",
+          "faIcon": "fa-solid fa-truck-fast",
+          "faIconColors": { "bg": "#007396", "fill": "#EEEEEE" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://waitlist-admin.web.app/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Waitlist",
+              "text": "It’s a simple waitlist system that displays the current queue and allows users to join the waitlist seamlessly.",
+              "tags": ["React", "Firebase", "Node.js", "AWS"]
+            },
+            "es": {
+              "title": "QuickDrop",
+              "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
+              "tags": ["React Native", "Entrega", "Seguimiento"]
+            },
+            "fr": {
+              "title": "QuickDrop",
+              "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
+              "tags": ["React Native", "Livraison", "Suivi"]
+            },
+            "ko": {
+              "title": "QuickDrop",
+              "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
+              "tags": ["React Native", "배송", "실시간 추적"]
+            }
+          }
+        },
+        {
+          "id": 15,
+          "categoryId": "category_apps",
+          "img": "images/photo/one-click-landing.png",
+          "faIcon": "fa-solid fa-truck-fast",
+          "faIconColors": { "bg": "#007396", "fill": "#EEEEEE" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://oneclickbuilder.com/",
+                "tooltipString": "see_on_web",
+                "faIcon": "fa-solid fa-display"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "One Click site builder Landing Page",
+              "text": "It’s the landing page for a one-click site builder, designed to highlight its features and allow users to quickly create and launch websites with minimal effort.",
+              "tags": ["HTML", "Javascript", "CSS"]
+            },
+            "es": {
+              "title": "QuickDrop",
+              "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
+              "tags": ["React Native", "Entrega", "Seguimiento"]
+            },
+            "fr": {
+              "title": "QuickDrop",
+              "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
+              "tags": ["React Native", "Livraison", "Suivi"]
+            },
+            "ko": {
+              "title": "QuickDrop",
+              "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
+              "tags": ["React Native", "배송", "실시간 추적"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

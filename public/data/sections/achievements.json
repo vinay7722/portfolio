@@ -1,0 +1,117 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Awards",
+        "title_short_nav": "Achievements",
+        "title_long_prefix": "Here are my",
+        "title_long": "Career {{Achievements}}"
+      },
+      "es": {
+        "title_short": "Logros",
+        "title_short_nav": "Logros",
+        "title_long_prefix": "Aquí están mis",
+        "title_long": "{{Logros}} Profesionales"
+      },
+      "fr": {
+        "title_short": "Réalis",
+        "title_short_nav": "Réalisations",
+        "title_long_prefix": "Voici",
+        "title_long": "Mes {{Réalisations}}"
+      },
+      "ko": {
+        "title_short": "경력 성과",
+        "title_short_nav": "경력 성과",
+        "title_long_prefix": "다음은",
+        "title_long": "{{경력 성과}}입니다"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleCards",
+      "locales": {
+        "en": { "title": "Certifications" },
+        "es": { "title": "Certificaciones" },
+        "fr": { "title": "Certifications" },
+        "ko": { "title": "인증서" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/photo/github.avif",
+          "faIcon": "fa-solid fa-life-ring",
+          "faIconColors": { "bg": "#326CE5", "fill": "#EEE" },
+          "date": { "year": 2019, "month": 8 },
+          "locales": {
+            "en": {
+              "title": "Winner in GitHub hackathon",
+              "text": "We are The first in this Code innovation series hackathon which is organized by Github"
+            },
+            "es": {
+              "text": "Administrador de Kubernetes Certificado (CKA)"
+            },
+            "fr": {
+              "text": "Administrateur Kubernetes Certifié (CKA)"
+            },
+            "ko": {
+              "text": "Kubernetes 인증 관리자 (CKA)"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "img": "images/photo/heckthon.png",
+          "faIcon": "fa-brands fa-aws",
+          "faIconColors": { "bg": "#FFD700", "fill": "#111" },
+          "date": { "year": 2019, "month": 8 },
+          "locales": {
+            "en": {
+              "title": "Runner Up in State Level Hackathon",
+              "text": "We are in Runner Up in Ideathon which is organised by GEC Rajkot"
+            },
+            "es": {
+              "text": "Arquitecto de Soluciones Certificado por AWS - Asociado"
+            },
+            "fr": {
+              "text": "Architecte de Solutions Certifié AWS - Associé"
+            },
+            "ko": {
+              "text": "AWS 공인 솔루션 아키텍트 - 준회원"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": "images/photo/google-cloud.avif",
+          "faIcon": "fa-brands fa-java",
+          "faIconColors": { "bg": "#007396", "fill": "#EEE" },
+          "date": { "year": 2019, "month": 8 },
+          "locales": {
+            "en": {
+              "title": "Google Cloud certification",
+              "text": "Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology."
+            },
+            "es": {
+              "text": "Desarrollador Java Certificado"
+            },
+            "fr": {
+              "text": "Développeur Java Certifié"
+            },
+            "ko": {
+              "text": "공인 자바 개발자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
